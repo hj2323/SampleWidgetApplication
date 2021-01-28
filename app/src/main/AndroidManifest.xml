@@ -9,16 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleWidgetApplication">
-        <activity android:name=".SampleDrawableActivity">
+        <activity android:name=".ProgressActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".DialogActivity">
 
         </activity>
+        <activity android:name=".ToastActivity"></activity>
+        <activity
+            android:name=".OrientationActivity2"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".OrientationActivity" />
+        <activity android:name=".EventActivity" />
+        <activity android:name=".SampleDrawableActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
